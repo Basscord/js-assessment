@@ -19,7 +19,19 @@ exports.arraysAnswers = {
   },
 
   remove: function(arr, item) {
-
+    console.log(arr);
+    console.log(item);
+    // indexOf
+    // splice
+    var i = 0;
+    while(i < arr.length){
+      if(arr[i] === item) {
+        arr.splice(i,1);
+      } else {
+        i++;
+      }
+    }
+    return arr;
   },
 
   removeWithoutCopy: function(arr, item) {
