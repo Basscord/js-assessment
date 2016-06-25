@@ -87,7 +87,6 @@ exports.arraysAnswers = {
   },
 
   duplicates: function(arr) {
-    console.log(arr);
     var uniques = [];
     var duplicates = [];
     for (var i = 0; i < arr.length; i++){
@@ -108,7 +107,6 @@ exports.arraysAnswers = {
   },
 
   findAllOccurrences: function(arr, target) {
-    console.log(arr, target);
     var indexes = [];
     for (var i = 0; i < arr.length; i++) {
       if(arr[i] === target) {
